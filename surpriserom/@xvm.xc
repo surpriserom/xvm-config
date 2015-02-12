@@ -10,9 +10,13 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   "configVersion": "5.1.0",
+  
+  // automatically reload config. Can reduce performance.
+  "autoReloadConfig": false,
 
   // Version of the editor.
-  "editorVersion": "0.80",
+  //xpcpad  
+  "editorVersion": "1.0.2.422",
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
@@ -33,16 +37,16 @@
     "description": "surpriserom settings for XVM",
 
     // Address to config updates.
-    "url": "http://www.modxvm.com/",
+    "url": "https://github.com/surpriserom/xvm-config/",
 
     // Config last modified.
-    "date": "25/09/2014",
+    "date": "13/02/2015",
 
     // Supported version of the game.
-    "gameVersion": "0.9.5",
+    "gameVersion": "0.9.6",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion": "5.3.4"
+    "modMinVersion":  "5.5.1.1"
   },
 
   // Parameters for login screen.
@@ -112,5 +116,8 @@
   "iconset": ${"iconset.xc":"iconset"},
 
   // Vehicle names mapping.
-  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"}
+  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
+  
+  // Export data
+  "export": ${"export.xc":"export"}
 }
