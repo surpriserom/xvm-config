@@ -33,6 +33,15 @@
       "lost_arty": "<font face='$FieldFont' size='16' color='#999999'>[-]</font>",
       "revealed_arty": "<font face='$FieldFont' size='16' color='#DE0000'>/!\</font>",
       "dead_arty": "<font face='$FieldFont' size='16' color='#00BEAA'>(-)</font>"
+    },
+    // Text for {{xvm-user}} macro.
+    "xvmuser": {
+      // XVM with enabled statistics
+      "on": "on",
+      // XVM with disabled statistics
+      "off": "off",
+      // Without XVM
+      "none": "none"
     }
   }
 }
