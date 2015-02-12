@@ -5,9 +5,15 @@
   "hotkeys": {
     // keycodes below
     // onHold: false - take action by key click. true - while key is remains pressed.
+    //    
+    // Minimap zooming.
     "minimapZoom":         { "enabled": true, "keyCode": 211, "onHold": true },
+    // Alternative minimap mode.
     "minimapAltMode":      { "enabled": true, "keyCode": 11 },
-    "playersPanelAltMode": { "enabled": true, "keyCode": 207 }
+    // Alternative "ears" (players panels) mode.
+    "playersPanelAltMode": { "enabled": true, "keyCode": 207 },
+    // Alternative vehicle markers mode.
+    "markersAltMode":      { "enabled": true, "onHold": true }    
   }
 }
 
