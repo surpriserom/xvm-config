@@ -67,9 +67,6 @@
   // Ingame crits panel by "expert" skill.
   "expertPanel": ${"battle.xc":"expertPanel"},
 
-  // Options for player statistics.
-  "rating": ${"rating.xc":"rating"},
-
   // Special XVM hotkeys.
   "hotkeys": ${"hotkeys.xc":"hotkeys"},
 
