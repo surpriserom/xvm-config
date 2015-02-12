@@ -16,7 +16,7 @@
       // true - Enable display of ping to the servers
       "enabled": true,
       // Update interval, in ms
-      "updateInterval": 9500,
+      "updateInterval": 10000,
       // Axis field coordinates
       "x": 3,
       "y": 51,
