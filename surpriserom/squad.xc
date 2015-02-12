@@ -8,6 +8,6 @@
     // false - hide player clan.
     "showClan": true,
     // Format of vehicle info field.
-    "formatInfoField": "{{rlevel}}  range:{{battletier-min}}{{battletier-max}}"
+    "formatInfoField": "{{rlevel}}  range:{{battletier-min}}-{{battletier-max}}"
   }
 }
