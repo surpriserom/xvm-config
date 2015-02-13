@@ -1,5 +1,5 @@
 # xvm-config
-personal configuration for world of tank add on
+personal configuration for world of tank add-on
 
 for world of tank v 9.6
 
