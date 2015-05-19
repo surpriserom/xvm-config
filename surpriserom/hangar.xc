@@ -5,10 +5,20 @@
   "hangar": {
     // true - Show XWN8 instead of XEFF in company windows
     "xwnInCompany": true,
+    // true - enable locker for gold
+    "enableGoldLocker": true,
+    // true - enable locker for free XP
+    "enableFreeXpLocker": true,
+    // true - Use credits instead of gold as default currency for ammo and equipment
+    "defaultBoughtForCredits": false,
     // true - Show mastery mark in tech tree
     "masteryMarkInTechTree": true,
     // true - Hide price button in tech tree
     "hidePricesInTechTree": false,
+    // true - Allow to consider the exchange of experience with gold in tech tree
+    "allowExchangeXPInTechTree": false,
+    // true - enable crew auto return function
+    "enableCrewAutoReturn": true,
     // true - Enable widgets
     "widgetsEnabled": true,
     // Ping servers
@@ -28,6 +38,10 @@
       "maxRows": 2,
       // Gap between columns
       "columnGap": 3,
+      // Leading between lines.
+      "leading": 0,
+      // true - place at top of other windows, false - at bottom.
+      "topmost": true,
       // Text style
       "fontStyle": {
         // Font name
@@ -62,6 +76,15 @@
         "blur": 4,
         "strength": 2
       }
+    },
+    // Show/hide server info or change its parameters
+    "serverInfo": {
+      // Show server info in hangar.
+      "enabled": true,
+      // Transparency in percents [0..100].
+      "alpha": 80,
+      // Rotation in degrees [0..360].
+      "rotation": 0
     },
     // Parameters for tank carousel
     "carousel": ${"carousel.xc":"carousel"},
