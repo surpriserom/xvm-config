@@ -3,11 +3,11 @@
  */
 {
   "clock": {
-    "enabled": true,
-    "x": -15,
-    "y": 40,
-    "width": 300,
-    "height": 60,
+    "enabled": true,                // Show clock in hangar.
+    "x": -15,                       // Horizontal position.
+    "y": 40,                        // Vertical position.
+    "width": 300,                   // Width.
+    "height": 60,                   // Height.
     "topmost": true,                // true - place at top of other windows, false - at bottom
     "align": "right",               // horizontal alignment of field at screen ("left", "center", "right")
     "valign": "top",                // vertical alignment of field at screen ("top", "center", "bottom")
@@ -29,7 +29,10 @@
     // {{h}}   - hour
     // {{m}}   - minute
     // {{s}}   - second
+    //    
+    // Clock format.     
     "format": "<font face='$FieldFont'><font size='19'>{{W}} {{D%02d}} {{MM}}</font><font size='26'> {{h%02d}}:{{m%02d}}:{{s%02d}}</font></font>",
+    // Shadow.
     "shadow": {
       "enabled": true,
       "distance": 0,             // (in pixels)
