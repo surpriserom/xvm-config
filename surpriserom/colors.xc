@@ -44,7 +44,9 @@
       "teamKiller_blowedup": "0x096A75",
       "enemy_alive":         ${"def.en"},
       "enemy_dead":          "0x840500",
-      "enemy_blowedup":      "0x5A0401"
+      "enemy_blowedup":      "0x5A0401",
+      "ally_base":           ${"def.al"},
+      "enemy_base":          ${"def.en"}
     },
     // Dynamic color by damage kind.
     "dmg_kind": {
@@ -210,32 +212,32 @@
       { "value": 9930,  "color": ${"def.colorRating.very_good"} },  // 8525 - 9929 - very good  (better then 99% of players)
       { "value": 99999, "color": ${"def.colorRating.unique"   } }   // 9930 - *    - unique     (better then 99.9% of players)
     ],
-    // Dynamic color by TEFF (E) rating
-    "e": [
-      { "value": 3,    "color": ${"def.colorRating.very_bad" } },
-      { "value": 6,    "color": ${"def.colorRating.bad"      } },
-      { "value": 7,    "color": ${"def.colorRating.normal"   } },
-      { "value": 8,    "color": ${"def.colorRating.good"     } },
-      { "value": 9,    "color": ${"def.colorRating.very_good"} },
-      { "value": 20,   "color": ${"def.colorRating.unique"   } }
+     // Dynamic color for win chance
+    "winChance": [
+      { "value": 24.5, "color": ${"def.colorRating.very_bad" } },
+      { "value": 39.5, "color": ${"def.colorRating.bad"      } },
+      { "value": 59.5, "color": ${"def.colorRating.normal"   } },
+      { "value": 74.5, "color": ${"def.colorRating.good"     } },
+      { "value": 89.5, "color": ${"def.colorRating.very_good"} },
+      { "value": 101,  "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by win percent
-    "rating": [
+    "winrate": [
       { "value": 46.5, "color": ${"def.colorRating.very_bad" } },   //  0   - 46.5  - very bad   (20% of players)
       { "value": 48.5, "color": ${"def.colorRating.bad"      } },   // 46.5 - 48.5  - bad        (better then 20% of players)
       { "value": 51.5, "color": ${"def.colorRating.normal"   } },   // 48.5 - 51.5  - normal     (better then 60% of players)
-      { "value": 56.5, "color": ${"def.colorRating.good"     } },   // 51.5 - 56.5  - good       (better then 90% of players)
-      { "value": 64.5, "color": ${"def.colorRating.very_good"} },   // 56.5 - 64.5  - very good  (better then 99% of players)
+      { "value": 57.5, "color": ${"def.colorRating.good"     } },   // 51.5 - 57.5  - good       (better then 90% of players)
+      { "value": 64.5, "color": ${"def.colorRating.very_good"} },   // 57.5 - 64.5  - very good  (better then 99% of players)
       { "value": 101,  "color": ${"def.colorRating.unique"   } }    // 64.5 - 100   - unique     (better then 99.9% of players)
     ],
     // Dynamic color by kilo-battles
     "kb": [
-      { "value": 2,   "color": ${"def.colorRating.very_bad" } },   //  0 - 1
-      { "value": 5,   "color": ${"def.colorRating.bad"      } },   //  2 - 4
-      { "value": 9,   "color": ${"def.colorRating.normal"   } },   //  5 - 8
-      { "value": 14,  "color": ${"def.colorRating.good"     } },   //  9 - 13
-      { "value": 20,  "color": ${"def.colorRating.very_good"} },   // 14 - 19
-      { "value": 999, "color": ${"def.colorRating.unique"   } }    // 20 - *
+      { "value": 2,   "color": ${"def.colorRating.very_bad" } },   //  0 - 2
+      { "value": 6,   "color": ${"def.colorRating.bad"      } },   //  2 - 6
+      { "value": 16,  "color": ${"def.colorRating.normal"   } },   //  6 - 16
+      { "value": 30,  "color": ${"def.colorRating.good"     } },   // 16 - 30
+      { "value": 43,  "color": ${"def.colorRating.very_good"} },   // 30 - 43
+      { "value": 999, "color": ${"def.colorRating.unique"   } }    // 43 - *
     ],
     // Dynamic color by average level of player tanks
     "avglvl": [
@@ -258,10 +260,11 @@
     // Dynamic color by average damage on current tank
     "tdb": [
       { "value": 500,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 750,  "color": ${"def.colorRating.bad"      } },
       { "value": 1000, "color": ${"def.colorRating.normal"   } },
       { "value": 1800, "color": ${"def.colorRating.good"     } },
       { "value": 2500, "color": ${"def.colorRating.very_good"} },
-      { "value": 3000, "color": ${"def.colorRating.unique"   } }
+      { "value": 9999, "color": ${"def.colorRating.unique"   } }
     ],
     // Dynamic color by average damage efficiency on current tank
     "tdv": [
@@ -298,6 +301,24 @@
       { "value": 1.3,  "color": ${"def.colorRating.good"     } },
       { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
       { "value": 15,   "color": ${"def.colorRating.unique"   } }
+    ],
+    // Dynamic color by damage rating (percents for marks on gun)
+    "damageRating": [
+      { "value": 20,    "color": ${"def.colorRating.very_bad" } },  // 20% of players
+      { "value": 60,    "color": ${"def.colorRating.bad"      } },  // better then 20% of players
+      { "value": 90,    "color": ${"def.colorRating.normal"   } },  // better then 60% of players
+      { "value": 99,    "color": ${"def.colorRating.good"     } },  // better then 90% of players
+      { "value": 99.9,  "color": ${"def.colorRating.very_good"} },  // better then 99% of players
+      { "value": 101,   "color": ${"def.colorRating.unique"   } }   // better then 99.9% of players
+    ],
+    // Dynamic color by hit ratio (percents of hits)
+    "hitsRatio": [
+      { "value": 47.5,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 60.5,  "color": ${"def.colorRating.bad"      } },
+      { "value": 68.5,  "color": ${"def.colorRating.normal"   } },
+      { "value": 74.5,  "color": ${"def.colorRating.good"     } },
+      { "value": 78.5,  "color": ${"def.colorRating.very_good"} },
+      { "value": 101,   "color": ${"def.colorRating.unique"   } }
     ]
   }
 }

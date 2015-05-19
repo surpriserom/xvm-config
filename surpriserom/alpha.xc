@@ -19,6 +19,17 @@
     "above_average":    "0"     // above-average
   },
   "alpha": {
+    // Dynamic transparency by spotted status
+    "spotted": {
+      "neverSeen":      80,
+      "lost":           90,
+      "revealed":       90,
+      "dead":           50,
+      "neverSeen_arty": 80,
+      "lost_arty":      90,
+      "revealed_arty":  100,
+      "dead_arty":      50
+    },
     // Dynamic transparency by remaining health.
     "hp": [
       { "value": 200,  "alpha": ${"alphaHP.very_low"     } },
@@ -78,23 +89,14 @@
       { "value": 9930,  "alpha": ${"alphaRating.very_good"} },
       { "value": 99999, "alpha": ${"alphaRating.unique"   } }
     ],
-    // Dynamic transparency by TEFF (E) rating
-    "e": [
-      { "value": 2,    "alpha": ${"alphaRating.very_bad" } },
-      { "value": 4,    "alpha": ${"alphaRating.bad"      } },
-      { "value": 5,    "alpha": ${"alphaRating.normal"   } },
-      { "value": 7,    "alpha": ${"alphaRating.good"     } },
-      { "value": 9,    "alpha": ${"alphaRating.very_good"} },
-      { "value": 20,   "alpha": ${"alphaRating.unique"   } }
-    ],
     // Dynamic transparency by win percent
-    "rating": [
-      { "value": 47,  "alpha": ${"alphaRating.very_bad" } },
-      { "value": 49,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 52,  "alpha": ${"alphaRating.normal"   } },
-      { "value": 57,  "alpha": ${"alphaRating.good"     } },
-      { "value": 65,  "alpha": ${"alphaRating.very_good"} },
-      { "value": 101, "alpha": ${"alphaRating.unique"   } }
+    "winrate": [
+      { "value": 46.5, "alpha": ${"alphaRating.very_bad" } },
+      { "value": 48.5, "alpha": ${"alphaRating.bad"      } },
+      { "value": 51.5, "alpha": ${"alphaRating.normal"   } },
+      { "value": 57.5, "alpha": ${"alphaRating.good"     } },
+      { "value": 64.5, "alpha": ${"alphaRating.very_good"} },
+      { "value": 101,  "alpha": ${"alphaRating.unique"   } }
     ],
     // Dynamic transparency by kilo-battles
     "kb": [
