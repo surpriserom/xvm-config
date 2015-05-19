@@ -8,7 +8,9 @@
     // Map image transparency.
     "mapBackgroundImageAlpha": 100,
     // Self icon transparency. White pointing arrow.
-    "selfIconAlpha": 100,
+    "selfIconAlpha": 75,
+    // Hide camera direction green triangle (also hides WG camera direction line).
+    "hideCameraTriangle": false,
     // Camera transparency and its attached geometry (green triangle).
     "cameraAlpha": 100,
     // Vehicles icon size. Does not affect attached geometry and textfields. Floating point allowed: 0.7, 1.4.
