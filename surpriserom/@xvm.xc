@@ -116,7 +116,7 @@
   "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
   
   // Export data
-  "export": ${"export.xc":"export"}
+  "export": ${"export.xc":"export"},
   
   // Parameters for tooltips
   "tooltips": ${"tooltips.xc":"tooltips"},
