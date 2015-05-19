@@ -42,6 +42,41 @@
       "off": "off",
       // Without XVM
       "none": "none"
+    },
+    // Text for {{battletype}} macro.
+    "battletype": {
+       // unknow battle type   
+      "unknown": "unknown",
+      // regular random battle
+      "regular": "regular",
+      // training battle
+      "training": "training",
+      // company battle
+      "company": "company",
+      // tournament battle
+      "tournament": "tournament",
+      // clan war battle
+      "clan": "clan",
+      // tutorial game
+      "tutorial": "tutorial",
+      // cybersport battle
+      "cybersport": "cybersport",
+      //  historical battle
+      "historical": "historical",
+      // event battle
+      "event_battles": "event_battles",
+      // sortie
+      "sortie": "sortie",
+      // fort battle
+      "fort_battle": "fort_battle",
+      // ranked cybersport battle
+      "rated_cybersport": "rated_cybersport"
+    },
+    // Text for {{topclan}} macro.
+    "topclan": {
+      "top": "top",
+      "persist": "persist",
+      "regular": ""
     }
   }
 }
