@@ -25,8 +25,8 @@
     //number of battle for the tank and win ratio for the tank
     // Display format for the left panel (macros allowed, see readme-en.txt).
     
-    "formatLeftVehicle": "<textformat>{{vehicle}} <font face='mono' size='10'><font color='{{c:t-battles}}'>{{t-battles|---}}</font> <font color='{{c:t-rating}}'>{{t-rating%2.01f~%|---}}</font></font></textformat>",
+    "formatLeftVehicle": "<textformat>{{vehicle}} <font face='mono' size='10'><font color='{{c:t-battles}}'>{{t-battles|---}}</font> <font color='{{c:t-rating}}'>{{t-rating%2.0f~%|--}}</font></font></textformat>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
-    "formatRightVehicle": "<textformat><font face='mono' size='10'><font color='{{c:t-rating}}' size='12'>{{t-rating%2.01f~%|---}}</font> <font color='{{c:t-battles}}' size='12'>{{t-battles|---}}</font></font> {{vehicle}}</texformat>"
+    "formatRightVehicle": "<textformat><font face='mono' size='10'><font color='{{c:t-rating}}'>{{t-rating%2.0f~%|--}}</font> <font color='{{c:t-battles}}'>{{t-battles|---}}</font></font> {{vehicle}}</texformat>"
   }
 }
