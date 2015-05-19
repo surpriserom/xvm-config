@@ -40,13 +40,13 @@
     "url": "https://github.com/surpriserom/xvm-config/",
 
     // Config last modified.
-    "date": "13/02/2015",
+    "date": "19/05/2015",
 
     // Supported version of the game.
-    "gameVersion": "0.9.6",
+    "gameVersion": "0.9.7",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion":  "5.5.1.1"
+    "modMinVersion":  "6.1.1.1"
   },
 
   // Parameters for login screen.
@@ -117,4 +117,10 @@
   
   // Export data
   "export": ${"export.xc":"export"}
+  
+  // Parameters for tooltips
+  "tooltips": ${"tooltips.xc":"tooltips"},
+
+  // Extra sounds settings
+  "sounds": ${"sounds.xc":"sounds"}
 }
