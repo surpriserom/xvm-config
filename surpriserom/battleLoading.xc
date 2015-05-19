@@ -34,9 +34,9 @@
     // false - disable highlight of icons during battle start depends on ready state.
     "darkenNotReadyIcon": true,
     // Display format for the left panel (macros allowed, see readme-en.txt).
-    "formatLeftNick": "<img src='xvm://res/icons/lang/{{region|CT}}/{{language|default}}.png' width='16' height='13'> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font><font color='{{c:wn8}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font><font color='{{c:kb}}'>\u2588</font>",
+    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font><font color='{{c:wn8}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font><font color='{{c:kb}}'>\u2588</font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
-    "formatRightNick": "<font color='{{c:kb}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font><font color='{{c:wn8}}'>\u2588</font> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font> <img src='xvm://res/icons/lang/{{region|CT}}/{{language|default}}.png' width='16' height='13'>",
+    "formatRightNick": "<font color='{{c:kb}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font><font color='{{c:wn8}}'>\u2588</font> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
     // Display format for the left panel (macros allowed, see readme-en.txt).
     "formatLeftVehicle": "{{vehicle}} <font color='{{c:t-battles}}'>\u2588</font><font color='{{c:t-rating}}'>\u2588</font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
