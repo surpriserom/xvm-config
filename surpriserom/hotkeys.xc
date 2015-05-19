@@ -6,11 +6,11 @@
     // keycodes below
     // onHold: false - take action by key click. true - while key is remains pressed.
     //    
-    // Minimap zooming.
+    // Minimap zooming. KEY_DELETE
     "minimapZoom":         { "enabled": true, "keyCode": 211, "onHold": true },
     // Alternative minimap mode.
     "minimapAltMode":      { "enabled": true, "keyCode": 11 },
-    // Alternative "ears" (players panels) mode.
+    // Alternative "ears" (players panels) mode. KEY_END
     "playersPanelAltMode": { "enabled": true, "keyCode": 207 },
     // Alternative vehicle markers mode.
     "markersAltMode":      { "enabled": true, "onHold": true }    

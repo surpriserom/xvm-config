@@ -15,6 +15,8 @@
     // 7 - Average XP  
     // 8 - Class mark 
     "sortColumn": -5,
+    // true - Show xTE column in the vehicle list
+    "showXTEColumn": true,
     // true - Show extra data in profile (experimental)
     "showExtraDataInProfile": true,
     // true - Enable filter tanks in hangar by default.
@@ -23,6 +25,7 @@
     "showFilters": true,
     // true - Set the default focus to the filter text input
     "filterFocused": true,
+    // TODO: description of the substitutions (+all, -premium, ...)
     // default value of the filter
     "defaultFilterValue": ""
   }
