@@ -77,7 +77,7 @@
       "width": 6,
       // Display format for frags (macros allowed, see readme-en.txt).
       "fragsFormatLeft": "<font color='{{c:wn8}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:t-winrate}}' size='8'>\u2588</font> {{frags}}",
-      "fragsFormatRight": "{{frags|0}} <font color='{{c:t-winrate}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:wn8}}' size='8'>\u2588</font>",
+      "fragsFormatRight": "{{frags}} <font color='{{c:t-winrate}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:wn8}}' size='8'>\u2588</font>",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [],
@@ -97,8 +97,8 @@
       // Display format for the right panel (macros allowed, see readme-en.txt).
       "formatRight": "<font color='{{c:eff}}'>\u2588</font><font color='{{c:wn8}}'>\u2588</font> {{nick}}",
       // Display format for frags (macros allowed, see readme-en.txt).
-      "fragsFormatLeft": "{{frags|0}}",
-      "fragsFormatRight": "{{frags|0}}",
+      "fragsFormatLeft": "{{frags}}",
+      "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [],
@@ -118,8 +118,8 @@
       // Display format for the right panel (macros allowed, see readme-en.txt).
       "formatRight": "<font color='{{c:t-winrate}}'>\u2588</font><font color='{{c:t-battles}}'>\u2588</font> {{vehicle}}",
       // Display format for frags (macros allowed, see readme-en.txt).
-      "fragsFormatLeft": "{{frags|0}}",
-      "fragsFormatRight": "{{frags|0}}",
+      "fragsFormatLeft": "{{frags}}",
+      "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
@@ -142,7 +142,7 @@
       "vehicleFormatLeft": "{{vehicle}} <font color='{{c:t-battles}}'>\u2588</font><font color='{{c:t-winrate}}'>\u2588</font>",
       "vehicleFormatRight": "<font color='{{c:t-winrate}}'>\u2588</font><font color='{{c:t-battles}}'>\u2588</font> {{vehicle}}",
       // Display format for frags (macros allowed, see readme-en.txt).
-      "fragsFormatLeft": "{{frags|0}}",
+      "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
