@@ -10,7 +10,7 @@
     // true - enable locker for free XP
     "enableFreeXpLocker": true,
     // true - Use credits instead of gold as default currency for ammo and equipment
-    "defaultBoughtForCredits": false,
+    "defaultBoughtForCredits": true,
     // true - Show mastery mark in tech tree
     "masteryMarkInTechTree": true,
     // true - Hide price button in tech tree
