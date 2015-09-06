@@ -22,12 +22,18 @@
     "hideBuySlot": false,
     // Visibility filters.
     "filters": {
-        "nation":   { "enabled": true },     // nation  
-        "type":     { "enabled": true },     // vehicle class 
-        "level":    { "enabled": true },     // vehicle level
-        "prefs":    { "enabled": true },     // favorite tanks
-        "favorite": { "enabled": true }      // other filters
+      "nation":   { "enabled": true },  // nation         
+      "type":     { "enabled": true },  // vehicle class 
+      "favorite": { "enabled": true },  // favorite tanks
+      "gameMode": { "enabled": true },  // fallout mode tanks 
+      "level":    { "enabled": true },  // vehicle level
+      "prefs":    { "enabled": true }   // other filters
       },
+    // Spacing between filters cells.
+    "filtersPadding": {
+        "horizontal": 11,   //
+        "vertical": 13      //
+    },
     // Standard cell elements.
     "fields": {
       // "visible"  - the visibility of the element
@@ -48,8 +54,12 @@
       "tankName": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Status text (Crew incomplete, Repairs required)
       "statusText": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
+      // Status text for "Buy tank" and "Buy slot" slots.
+      "statusTextBuy": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Clan lock timer
-      "clanLock":   { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
+      "clanLock":   { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
+      // Activate / deactivate button.
+      "activateButton": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
     // Extra cell fields (see playersPanel.xc).
     "extraFields": [

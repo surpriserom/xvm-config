@@ -7,6 +7,8 @@
     "combineIcons": true,
     // true - Hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew.
     "hideBottomText": true,
+    // delay in tooltips appearance: increase in case of freezes, default is 0.4 sec
+    "tooltipsDelay": 0.4,
 
     "lightTank":    [
                     "maxHealth",
@@ -31,7 +33,8 @@
                     "enginePowerPerTon",
                     "speedLimits",
                     "terrainResistance",
-                    "crewRolesIcons"
+                    "crewRolesIcons",
+                    "camo_coeff"
                     ],
     "mediumTank":   [
                     "maxHealth",
@@ -56,7 +59,8 @@
                     "enginePowerPerTon",
                     "speedLimits",
                     "terrainResistance",
-                    "crewRolesIcons"
+                    "crewRolesIcons",
+                    "camo_coeff"
                     ],
     "heavyTank":    [
                     "maxHealth",
@@ -79,7 +83,8 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons"
+                    "crewRolesIcons",
+                    "camo_coeff"
                     ],
     "TD":           [
                     "maxHealth",
@@ -103,7 +108,8 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons"
+                    "crewRolesIcons",
+                    "camo_coeff"
                     ],
     "SPG":          [
                     "maxHealth",
@@ -125,7 +131,8 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons"
+                    "crewRolesIcons",
+                    "camo_coeff"                    
                     ]
   }
 }

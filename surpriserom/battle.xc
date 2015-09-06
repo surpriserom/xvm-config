@@ -21,7 +21,7 @@
     "clanIconsFolder": "clanicons/",
     // Path to sixth sense icon ("" for original icon).
     // sample path => "xvm://res/SixthSense.png"  (ie in res_mods\mods\shared_resources\xvm\res\) 
-    "sixthSenseIcon": "xvm://res/SixthSense.png",
+    "sixthSenseIcon": "xvm://../../../configs/xvm/surpriserom/Spotted.png",
     // GUI elements settings (experts only)
     "elements": ${"elements.xc":"elements"}
   },

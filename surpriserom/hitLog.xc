@@ -37,8 +37,8 @@
     // Insert order: begin - insert new values to begin, end - add to end.
     "insertOrder": "end",
     // Substitution for {{dead}} macro when tank is dead.
-    "deadMarker": "<img src='xvm://res/icons/dead.png' width='12' height='12'>",
-    "blowupMarker": "<img src='xvm://res/icons/blowedup.png' width='12' height='12'>",
+    "deadMarker": "&#x77;", //"<img src='xvm://res/icons/dead.png' width='12' height='12'>",
+    "blowupMarker": "&#x78;", //"<img src='xvm://res/icons/blowedup.png' width='12' height='12'>",
     // Default header format (before first hit). Only localization macros are allowed, see readme-en.txt.
     "defaultHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#0</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt).
