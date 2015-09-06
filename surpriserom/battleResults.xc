@@ -15,8 +15,6 @@
     "showExtendedInfo": true,
     // true - Show totals for your battle efficiency in first page
     "showTotals": true,
-    // true - Enable display of "chance to win"
-    "showChances": true,
     // true - Enable display of battle tier.
     "showBattleTier": true
   }

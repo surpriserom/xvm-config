@@ -184,15 +184,6 @@
       // Shift Y position
       "shiftY": 0
     },
-    // Show/hide server info or change its parameters
-    "serverInfo": {
-      // Show server info in hangar.
-      "enabled": true,
-      // Transparency in percents [0..100].
-      "alpha": 80,
-      // Rotation in degrees [0..360].
-      "rotation": 0
-    },
     // Parameters for tank carousel
     "carousel": ${"carousel.xc":"carousel"},
     // Parameters for hangar clock
