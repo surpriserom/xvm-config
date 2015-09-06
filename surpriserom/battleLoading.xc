@@ -12,6 +12,26 @@
     "showBattleTier": true,
     // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     "removeSquadIcon": false,
+    // true - disable vehicle level indicator.
+    "removeVehicleLevel": false,
+    // true - disable vehicle type icon. This space will be used for formatted vehicle field.
+    "removeVehicleTypeIcon": false,
+    // X offset for allies squad icons
+    "squadIconOffsetXLeft": 0,
+    // X offset for enemies squad icons field
+    "squadIconOffsetXRight": 0,
+    // X offset for allies player names field
+    "nameFieldOffsetXLeft": 0,
+    // X offset for enemies player names field
+    "nameFieldOffsetXRight": 0,
+    // X offset for "formatLeftVehicle" field
+    "vehicleFieldOffsetXLeft": 0,
+    // X offset for "formatRightVehicle" field
+    "vehicleFieldOffsetXRight": 0,
+    // X offset for allies vehicle icons
+    "vehicleIconOffsetXLeft": 0,
+    // X offset for enemies vehicle icons
+    "vehicleIconOffsetXRight": 0,
     // Display options for Team/Clan logos.
     "clanIcon": {
       // false - Disable Team/Clan logos in Battle Loading Screen.

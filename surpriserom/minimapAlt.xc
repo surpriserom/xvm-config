@@ -12,10 +12,14 @@
     "selfIconAlpha": 100,
     // Hide camera direction green triangle (also hides WG camera direction line).
     "hideCameraTriangle": false,
+    // Show camera line after death
+    "showCameraLineAfterDeath": true,
     // Camera transparency and its attached geometry (green triangle).
     "cameraAlpha": 100,
     // Vehicles icon size. Does not affect attached geometry and textfields. Floating point allowed: 0.7, 1.4.
     "iconScale": 1,
+    // Path to icon for arty aim
+    "minimapAimIcon": "xvm://res/MinimapAim.png",
     // Map zoom by key pressing. Key is defined at file "hotkeys.xc".
     "zoom": {
       // Number of pixels to get back from maximum size (screen height-minimap height).

@@ -8,7 +8,7 @@
     // Save last server
     "saveLastServer": false,
     // Auto enter to the game
-    "autologin": true,
+    "autologin": false,
     // Auto confirm old replays playing
     "confirmOldReplays": true,
     // Ping servers
@@ -19,6 +19,14 @@
       // Axis field coordinates
       "x": 5,
       "y": 30
+    },
+    "onlineServers":{
+      "$ref": { "file": "hangar.xc", "path": "hangar.onlineServers" },
+      // true - Show servers info
+      "enabled": true,
+      // Axis field coordinates
+      "x": 5,
+      "y": 45
     }
   }
 }
