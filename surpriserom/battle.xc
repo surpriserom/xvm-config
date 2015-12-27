@@ -23,7 +23,11 @@
     // sample path => "xvm://res/SixthSense.png"  (ie in res_mods\mods\shared_resources\xvm\res\) 
     "sixthSenseIcon": "xvm://../../../configs/xvm/surpriserom/Spotted.png",
     // GUI elements settings (experts only)
-    "elements": ${"elements.xc":"elements"}
+    "elements": ${"elements.xc":"elements"},
+    // Camera settings
+    "camera": ${"camera.xc":"camera"},
+    // Switching between players on the minimap after death
+    "minimapDeadSwitch": true
   },
   // Frag counter panel at top side of battle windows interface.
   "fragCorrelation": {

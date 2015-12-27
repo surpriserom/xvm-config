@@ -9,7 +9,7 @@
  */
 {
   // Version of the config. Do not remove or change it unnecessarily.
-  "configVersion": "6.0.0",
+  "configVersion": "6.1.0",
   
   // automatically reload config. Can reduce performance.
   "autoReloadConfig": false,
@@ -40,13 +40,13 @@
     "url": "https://github.com/surpriserom/xvm-config/",
 
     // Config last modified.
-    "date": "06/09/2015",
+    "date": "27/12/2015",
 
     // Supported version of the game.
-    "gameVersion": "0.9.9",
+    "gameVersion": "0.9.13",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion":  "6.1.3.1"
+    "modMinVersion":  "6.2.0"
   },
 
   // Parameters for login screen.

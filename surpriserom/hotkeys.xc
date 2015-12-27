@@ -8,7 +8,7 @@
     //    
     // Minimap zooming. KEY_DELETE
     "minimapZoom":         { "enabled": true, "keyCode": 211, "onHold": true },
-    // Alternative minimap mode.
+    // Alternative minimap mode. KEY_0
     "minimapAltMode":      { "enabled": true, "keyCode": 11 },
     // Alternative "ears" (players panels) mode. KEY_END
     "playersPanelAltMode": { "enabled": true, "keyCode": 207 },
