@@ -32,7 +32,7 @@
     "vehicleSpotted": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "ally", "enemy", "squadman", "teamKiller", "spotted", "alive" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{vehicle}}</font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{vehicle}}</font>",
       "x": 2,
       "y": -1
     },
@@ -40,7 +40,7 @@
     "nickSpotted": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "squadman", "spotted", "alive" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
       "x": 2,
       "y": -9
     },
@@ -57,7 +57,7 @@
     "vehicleLost": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "ally", "enemy", "squadman", "teamKiller", "lost", "alive" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{vehicle}}</i></font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{vehicle}}</i></font>",
       "alpha": 85,
       "x": 2,
       "y": -1
@@ -66,7 +66,7 @@
     "nickLost": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "squadman", "lost", "alive" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
       "alpha": 85,
       "x": 2,
       "y": -9
@@ -85,7 +85,7 @@
     "vehicleDead": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "squadman", "dead" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{vehicle}}</font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{vehicle}}</font>",
       "alpha": 85,
       "x": 2,
       "y": -1
@@ -94,7 +94,7 @@
     "nickDead": {
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "squadman", "dead" ],
-      "format": "<font size='6' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
+      "format": "<font size='7' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s~..}}</i></font>",
       "shadow": { "$ref": { "path":"def.defaultItem.shadow" }, "strength": 3 },
       "x": 2,
       "y": -9
