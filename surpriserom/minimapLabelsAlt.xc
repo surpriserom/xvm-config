@@ -7,7 +7,7 @@
     "enabled": true,
     // Format set
     "formats": [
-      //${ "minimapLabelsTemplates.xc":"def.vtypeSpotted" },
+      ${ "minimapLabelsTemplates.xc":"def.vtypeSpotted" },
       ${ "minimapLabelsTemplates.xc":"def.vehicleSpotted" },
       ${ "minimapLabelsTemplates.xc":"def.nickSpotted" },
       {

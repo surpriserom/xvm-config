@@ -212,7 +212,7 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{nick}}"
+        "format": "{{nick}} [{{frags|0}}]"
       }
     ]
   },
@@ -391,7 +391,7 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{nick}}"
+        "format": "{{nick}} [{{frags|0}}]"
       }
     ]
   }

@@ -6,9 +6,9 @@
     // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
      "alpha": 100,
     // x position.
-    "x": -40,
+    "x": -20,
     // y position.
-    "y": 0,
+    "y": 5,
     // Horizontal alignment
     "align": "center",
     // true - x position is binded to vehicle icon, false - binded to edge of the screen.

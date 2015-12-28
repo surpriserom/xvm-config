@@ -25,23 +25,23 @@
     },
     // Text for {{spotted}} macro.
     "spotted": {
-      "neverSeen": "<font face='xvm' size='16' color='#FFFFFF'>(?)</font>",
-      "lost": "<font face='ARIAL' size='16' color='#999999'>(-)</font>",
-      "spotted": "<font face='ARIAL' size='16' color='#DE0000'>[+]</font>",
-      "dead": "<font face='xvm' size='16' color='#00BEAA'>|-|</font>",
-      "neverSeen_arty": "<font face='xvm' size='16' color='#FFFFFF'>(?)</font>",
-      "lost_arty": "<font face='xvm' size='16' color='#999999'>(-)</font>",
-      "spotted_arty": "<font face='xvm' size='16' color='#DE0000'>/!\</font>",
-      "dead_arty": "<font face='xvm' size='16' color='#00BEAA'>|:D</font>"
+      "neverSeen": "<font face='xvm' size='16' color='#CCCCCC'>\u0057</font>",
+      "lost": "<font face='xvm' size='16' color='#999999'>\u0045</font>",
+      "spotted": "<font face='xvm' size='16' color='#DE0000'>\u0050</font>",
+      "dead": "<font face='xvm' size='16' color='#00EEAA'>\u002B</font>",
+      "neverSeen_arty": "<font face='xvm' size='16' color='#CCCCCC'>\u0057</font>",
+      "lost_arty": "<font face='xvm' size='16' color='#999999'>\u0045</font>",
+      "spotted_arty": "<font face='xvm' size='16' color='#DE0000'>\u005c</font>",
+      "dead_arty": "<font face='xvm' size='16' color='#00EEAA'>\u002B</font>"
     },
     // Text for {{xvm-user}} macro.
     "xvmuser": {
       // XVM with enabled statistics
-      "on": "on",
+      "on": "<font face='xvm' size='16' color='#EEAA11'>\u0071</font>",
       // XVM with disabled statistics
-      "off": "off",
+      "off": "<font face='xvm' size='16' color='#CCCCCC'>\u0071</font>",
       // Without XVM
-      "none": "none"
+      "none": "<font face='xvm' size='16' color='#CCCCCC'>\u006F</font>"
     },
     // Text for {{battletype}} macro.
     "battletype": {
