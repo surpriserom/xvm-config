@@ -25,14 +25,14 @@
     },
     // Text for {{spotted}} macro.
     "spotted": {
-      "neverSeen": "<font face='$FieldFont' size='16' color='#FFFFFF'>(?)</font>",
-      "lost": "<font face='$FieldFont' size='16' color='#999999'>[-]</font>",
-      "revealed": "<font face='$FieldFont' size='16' color='#DE0000'>[+]</font>",
-      "dead": "<font face='$FieldFont' size='16' color='#00BEAA'>(-)</font>",
-      "neverSeen_arty": "<font face='$FieldFont' size='16' color='#FFFFFF'>(?)</font>",
-      "lost_arty": "<font face='$FieldFont' size='16' color='#999999'>[-]</font>",
-      "revealed_arty": "<font face='$FieldFont' size='16' color='#DE0000'>/!\</font>",
-      "dead_arty": "<font face='$FieldFont' size='16' color='#00BEAA'>(-)</font>"
+      "neverSeen": "<font face='xvm' size='16' color='#FFFFFF'>(?)</font>",
+      "lost": "<font face='ARIAL' size='16' color='#999999'>(-)</font>",
+      "spotted": "<font face='ARIAL' size='16' color='#DE0000'>[+]</font>",
+      "dead": "<font face='xvm' size='16' color='#00BEAA'>|-|</font>",
+      "neverSeen_arty": "<font face='xvm' size='16' color='#FFFFFF'>(?)</font>",
+      "lost_arty": "<font face='xvm' size='16' color='#999999'>(-)</font>",
+      "spotted_arty": "<font face='xvm' size='16' color='#DE0000'>/!\</font>",
+      "dead_arty": "<font face='xvm' size='16' color='#00BEAA'>|:D</font>"
     },
     // Text for {{xvm-user}} macro.
     "xvmuser": {

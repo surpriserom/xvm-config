@@ -10,7 +10,7 @@
       // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
       "highVulnerability": "[_]~",//"\u25B2",
       // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
-      "lowVulnerability": "(\u2B1B)~"//"\u25A0"
+      "lowVulnerability": "(\u2588)~"//"\u25A0"
     },
     // ally
     "ally": {
