@@ -28,6 +28,8 @@
             // Main circles:
             { "enabled":  true, "distance": "blindarea", "scale": 1, "thickness": 0.5, "alpha": 80, "color": "0x3C3C3C" },
             { "enabled":  true, "distance": 445,         "scale": 1, "thickness":  1.1, "alpha": 45, "color": "0xFFCC66" },
+            // Circle of the maximum units appearance.
+            { "enabled": false, "distance": 564,         "scale": 1, "thickness":  0.7, "alpha": 40, "color": "0xFFFFFF" },
             // Additional circles:
             { "enabled": true, "distance": 50,          "scale": 1, "thickness": 0.75, "alpha": 60, "color": "0xFFFFFF" },
             { "enabled": false, "distance": "standing",  "scale": 1, "thickness":  1.0, "alpha": 60, "color": "0xFF0000" },

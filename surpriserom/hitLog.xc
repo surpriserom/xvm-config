@@ -37,14 +37,14 @@
     // Insert order: begin - insert new values to begin, end - add to end.
     "insertOrder": "end",
     // Substitution for {{dead}} macro when tank is dead.
-    "deadMarker": "&#x77;", //"<img src='xvm://res/icons/dead.png' width='12' height='12'>",
-    "blowupMarker": "&#x78;", //"<img src='xvm://res/icons/blowedup.png' width='12' height='12'>",
+    "deadMarker": "&#x77;",
+    "blowupMarker": "&#x78;",
     // Default header format (before first hit). Only localization macros are allowed, see readme-en.txt.
     "defaultHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#0</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt).
-    "formatHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#{{n}}</font> <font color='#FFFFFF'>{{l10n:Total}}: </font><b>{{dmg-total}}</b>  <font color='#FFFFFF'>{{l10n:Last}}:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font>",
+    "formatHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#{{n}}</font> <font color='#FFFFFF'>{{l10n:Total}}: </font><b>{{dmg-total}}</b>  <font color='#FFFFFF'>{{l10n:Last}}:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b></font> <font face='xvm' size='21'>{{dead=&#x77;?&#x29;|{{dead=&#x78;?&#x28;}}}}</font>",
     // List of hits format (macros allowed, see readme-en.txt).
-    "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,190]'><font size='12'>\u00D7{{n-player}}:</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| {{dmg-player}}<tab>|<font color='{{c:vtype}}'>{{vehicle}} {{dead}}</font><tab><font color='#FFFFFF'>|{{nick}}</font></textformat>",
+    "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,190]'><font size='12'>\u00D7{{n-player}}:</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| {{dmg-player}}<tab>|<font color='{{c:vtype}}'>{{vehicle}}</font> <font face='xvm' size='19' color='#FF0000'>{{dead}}</font><tab><font color='#FFFFFF'>|{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></font></textformat>",
     // Shadow options.
     "shadow": {
       // Opacity.

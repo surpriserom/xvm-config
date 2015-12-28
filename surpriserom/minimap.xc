@@ -6,9 +6,11 @@
     // false - Disable.
     "enabled": true,
     // Map image transparency.
-    "mapBackgroundImageAlpha": 100,
+    "mapBackgroundImageAlpha": 90,
     // Self icon transparency. White pointing arrow.
     "selfIconAlpha": 75,
+    // Vehicle type icons transparency.
+    "iconAlpha": 90,
     // Hide camera direction green triangle (also hides WG camera direction line).
     "hideCameraTriangle": false,
     // Show camera line after death
@@ -28,20 +30,14 @@
       // false - does not set zoomed minimap at display center.
       "centered": true
     },
+    // Map size label
+    "mapSize": ${"minimapMapSize.xc":"mapSize"},
     // Minimap labels.
     "labels": ${"minimapLabels.xc":"labels"},
+    "labelsData": ${"minimapLabelsData.xc":"labelsData"},
     // Minimap circles.
     "circles": ${"minimapCircles.xc":"circles"},
     // Minimap lines.
-    "lines": ${"minimapLines.xc":"lines"},
-    // Square of the maximum units appearance (1000 m).
-    "square" : {
-      "enabled": true,
-      // Show square if using artillery\SPG vehicle.
-      "artilleryEnabled": true,
-      "thickness": 0.2,
-      "alpha": 40,
-      "color": "0xFFFFFF"
-    }
+    "lines": ${"minimapLines.xc":"lines"}
   }
 }

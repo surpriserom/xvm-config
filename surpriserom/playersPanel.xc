@@ -6,9 +6,9 @@
     // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
      "alpha": 100,
     // x position.
-    "x": -40,
+    "x": -20,
     // y position.
-    "y": 0,
+    "y": 5,
     // Horizontal alignment
     "align": "center",
     // true - x position is binded to vehicle icon, false - binded to edge of the screen.
@@ -23,8 +23,6 @@
     "alpha": 70,
     // Opacity percentage of icons in the panels. 0 - transparent ... 100 - opaque.
     "iconAlpha": 90,
-    // true - Disable Platoon icons.
-    "removeSquadIcon": false,
     // true - disable background of the selected player.
     "removeSelectedBackground": false,
     // true - Remove the Players Panel mode switcher (buttons for changing size).
@@ -75,6 +73,10 @@
       "enabled": true,
       // Width of the column, 0-250. Default is 0.
       "width": 6,
+		    // true - Disable Platoon icons.
+		    "removeSquadIcon": false,
+      // transparency of vehicle level
+      "vehicleLevelAlpha": 90,
       // Display format for frags (macros allowed, see readme-en.txt).
       "fragsFormatLeft": "<font color='{{c:wn8}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:t-winrate}}' size='8'>\u2588</font> {{frags}}",
       "fragsFormatRight": "{{frags}} <font color='{{c:t-winrate}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:wn8}}' size='8'>\u2588</font>",
@@ -92,6 +94,10 @@
       "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 46.
       "width": 46,
+		    // true - Disable Platoon icons.
+		    "removeSquadIcon": false,
+      // transparency of vehicle level
+      "vehicleLevelAlpha": 90,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       "formatLeft": "{{nick}} <font color='{{c:wn8}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
@@ -113,6 +119,10 @@
       "enabled": true,
       // Maximum width of the vehicle name column, 0-250. Default is 65.
       "width": 65,
+		    // true - Disable Platoon icons.
+		    "removeSquadIcon": false,
+      // transparency of vehicle level
+      "vehicleLevelAlpha": 90,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       "formatLeft": "{{vehicle}} <font color='{{c:t-battles}}'>\u2588</font><font color='{{c:t-winrate}}'>\u2588</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
@@ -135,6 +145,10 @@
       "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 170.
       "width": 170,
+		    // true - Disable Platoon icons.
+		    "removeSquadIcon": false,
+      // transparency of vehicle level
+      "vehicleLevelAlpha": 90,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       "nickFormatLeft": "<font color='{{c:wn8}}'>\u2588</font><font color='{{c:eff}}'>\u2588</font> {{nick}}",
       "nickFormatRight": "{{nick}} <font color='{{c:eff}}'>\u2588</font><font color='{{c:wn8}}'>\u2588</font>",
