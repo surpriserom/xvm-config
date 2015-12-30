@@ -1,5 +1,5 @@
 # xvm-config
-personal configuration for world of tank add-on
+personal configuration for world of tank add-on [Download Here](https://github.com/surpriserom/xvm-config/archive/develop.zip)
 
 for minimum world of tank v 9.13
 for xvm from 6.2
@@ -57,3 +57,7 @@ normale view	|	alt view (when you push alt)
 ![Normale marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/TankView.jpg)	|![Alt marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/altTankView.jpg)
 up to down, player name and clan, tank name, structure point and hitpoint bar,turret marker, tank type icon, tank tier and number of kill done  |	left to right, up to down, global win ration of the player, number of thoushand battle (kbattle), player wn8, player efficiency, player name, clan, hit point bar, hitpoint ratio, tank icon type
 
+####Player Panel
+small	|	medium 1	|	medium 2	|	large
+--------|---------------|---------------|---------
+![Small player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelSmall.jpg	|	![Medium-1 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-1.jpg)	|	![Medium-2 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-2.jpg)	|	![Large player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelLarge.jpg)
