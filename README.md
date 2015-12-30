@@ -87,8 +87,22 @@ minimap	| minimap zoomed (when you push delete)
 ![minimap](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/minimap.jpg)	|	![Zoomed minimap](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/altMap.jpg)
 
 Minimap and zoomed map show same thing, except that the zoomed one take most of your screen in the center.
+
 Feature tank marker and tank name, so instead of point show you the type of tank and the tank name.
+
 Added circle, with large white circle for max drawing range, blue circle for view range (can be bigger than drawing range with binocular), small white circle for minimal distance for automactic spot, line with dot sho gun orientation, white ine show gun horizontal depression, green line show center of front hull.
 
+####Hitlog
+hitlog | Structure point left ( when you push alt)
+-------|------------------------------------------
+![Hitlog](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Hitlog.jpg)	|	![Damage log](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Damagelog.jpg)
+Display your number of hit, your total amount of damage, the damage of your last shot, per line, the number of shot on this tank, last damage(yellow), total damage, tank name, player name. A red cross when you killed it. | number of hitpoint left on total hitpoint, tank name, player name.
 
+####Camera
+I chose to use the last implemented function of the mode the camera mod, so it allow you to have higer zoom ( you see better, your russian tank don't aim better) and better  unzoom. kinda cool when your are dead to see from a higher point of view, but when your are in gale, it's not often youuse a big zoom or you unzoom much.
 
+Zoom value are x2, x3, x4, x6, x8, x10, x16, x32. No more because x32 is already a bit too much.
+
+In arcade mode view range defaul is 2 to 25, set in mod at 1 to 50 and post mortem 1 to 200. In strategic view (arty view) default is 40 to 100, set in mod at 5 to 200.
+![Zoom view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/camera-zoom.jpg)
+In this picture i use a 17pounder with 0.32 acruacy with a 100% trained crew and a vent, as you can see with a x32 zoom even a such acruate gun give a bigger aiming circlethan the tank.
