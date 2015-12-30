@@ -107,4 +107,5 @@ Zoom value are x2, x3, x4, x6, x8, x10, x16, x32. No more because x32 is already
 
 In arcade mode view range defaul is 2 to 25, set in mod at 1 to 50 and post mortem 1 to 200. In strategic view (arty view) default is 40 to 100, set in mod at 5 to 200.
 ![Zoom view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/camera-zoom.jpg)
+
 In this picture i use a 17pounder with 0.32 acruacy with a 100% trained crew and a vent, as you can see with a x32 zoom even a such acruate gun give a bigger aiming circlethan the tank.
