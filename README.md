@@ -96,7 +96,8 @@ Added circle, with large white circle for max drawing range, blue circle for vie
 hitlog | Structure point left ( when you push alt)
 -------|------------------------------------------
 ![Hitlog](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Hitlog.jpg)	|	![Damage log](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Damagelog.jpg)
-Display your number of hit, your total amount of damage, the damage of your last shot, per line, the number of shot on this tank, last damage(yellow), total damage, tank name, player name. A red cross when you killed it. | number of hitpoint left on total hitpoint, tank name, player name.
+Display your number of hit, your total amount of damage, the damage of your last shot,  |   number of hitpoint left on total hitpoint, tank name, player name.
+per line, the number of shot on this tank, last damage(yellow), total damage, tank name, player name. A red cross when you killed it. | 
 
 ####Camera
 I chose to use the last implemented function of the mode the camera mod, so it allow you to have higer zoom ( you see better, your russian tank don't aim better) and better  unzoom. kinda cool when your are dead to see from a higher point of view, but when your are in gale, it's not often youuse a big zoom or you unzoom much.
