@@ -27,10 +27,6 @@ put the file in world of tank installation folder under /res_mod/configs/xvm
 * More stat in vehicle stat view
 and some more :D
 
-##What it look like
-###In Game view
-Game view will be presented after
-![In game view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/in_game.jpg)
 ### In Garage
 Wehicle list shortable by tank type, tier, nation, or kind (premium, multi xp, full crew, master...), shown on 2 line, usefull when you start to have a lot of tank
 
@@ -40,3 +36,26 @@ Top left, server stat, with ping refreshed every 10s, end server population
 
 Top right a clock with the date, your computer time. Above in free xp and gold  a little lock to prevent use of free xp or gold, click to realese or set
 ![In Garage](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/garageView.jpg)
+
+####Tank stat in player panel
+Colored stat, from good (green, blue violet) to bad (orange - red) average is yellow
+
+Average victory ratio of other player to compare
+
+Your stat, with wn8 and battle efficiency, your average tier, your victory ratio
+
+Xte is a way to compare your efficiency in a vehicle compared to other player
+![In Garage](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/userInfo-tankStat.jpg)
+
+##What it look like
+###In Game view
+![In game view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/in_game.jpg)
+
+####Vehicle markers
+normale view
+up to down, player name and clan, tank name, structure point and hitpoint bar,turret marker, tank type icon, tank tier and number of kill done  
+![Normale marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/TankView.jpg)
+alt view (when you push alt)
+left to right, up to down, global win ration of the player, number of thoushand battle (kbattle), player wn8, player efficiency, player name, clan, hit point bar, hitpoint ratio, tank icon type
+![Alt marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/altTankView.jpg)
+
