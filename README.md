@@ -52,10 +52,8 @@ Xte is a way to compare your efficiency in a vehicle compared to other player
 ![In game view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/in_game.jpg)
 
 ####Vehicle markers
-normale view
-up to down, player name and clan, tank name, structure point and hitpoint bar,turret marker, tank type icon, tank tier and number of kill done  
-![Normale marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/TankView.jpg)
-alt view (when you push alt)
-left to right, up to down, global win ration of the player, number of thoushand battle (kbattle), player wn8, player efficiency, player name, clan, hit point bar, hitpoint ratio, tank icon type
-![Alt marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/altTankView.jpg)
+normale view	|	alt view (when you push alt)
+----------------|--------------------------------
+![Normale marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/TankView.jpg)	|![Alt marker](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/altTankView.jpg)
+up to down, player name and clan, tank name, structure point and hitpoint bar,turret marker, tank type icon, tank tier and number of kill done  |	left to right, up to down, global win ration of the player, number of thoushand battle (kbattle), player wn8, player efficiency, player name, clan, hit point bar, hitpoint ratio, tank icon type
 
