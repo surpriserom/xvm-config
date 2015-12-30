@@ -352,7 +352,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{nick}}"
+        "format": "{{nick}}   <font color='#2277FF'>[{{frags|0}}]</font>"
       },
       // Text field with the percentage of remaining health.
       {

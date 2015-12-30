@@ -162,7 +162,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{vehicle}} {{turret}}"
+        "format": "{{vehicle}}"
       },
       // Text field with the remaining / maximum health.
       {
@@ -212,7 +212,57 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{nick}} [{{frags|0}}]"
+        "format": "{{nick}}"
+      },
+      // Text field with the number of kill
+      {
+        "name": "Number of kill",
+        "visible": true,
+        "x": 20,
+        "y": 0,
+        "alpha": 80,
+        "color": "0xFCFCFC",
+        "font": {
+          "name": "$FieldFont",
+          "size": 15,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 80,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 4,
+          "strength": 100
+        },
+        "format": "[{{frags|0}}]"
+      },
+      // Text field with the turret marker
+      {
+        "name": "turret marker",
+        "visible": true,
+        "x": -20,
+        "y": 0,
+        "alpha": 80,
+        "color": "0xFCFCFC",
+        "font": {
+          "name": "$FieldFont",
+          "size": 15,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 80,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 4,
+          "strength": 100
+        },
+        "format": "{{turret}}"
       }
     ]
   },
@@ -304,10 +354,10 @@
     },
     // Vehicle tier.
     "levelIcon": {
-      "visible": true,  // false - disable    
-      "x": -10,            // Position on the X axis
+      "visible": true,  // false - disable
+      "x": 0,            // Position on the X axis
       "y": -10,          // Position on the Y axis
-      "alpha": 90       // Opacity 
+      "alpha": 100       // Opacity
     },
     // Markers "Help!" and "Attack!".
     "actionMarker": {
@@ -341,7 +391,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{vehicle}} {{turret}}"
+        "format": "{{vehicle}}"
       },
       // Text field with the remaining / maximum health.
       {
@@ -391,7 +441,57 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{nick}} [{{frags|0}}]"
+        "format": "{{nick}}"
+      },
+      // Text field with the number of kill
+      {
+        "name": "Number of kill",
+        "visible": true,
+        "x": 25,
+        "y": 0,
+        "alpha": 80,
+        "color": "0xFCFCFC",
+        "font": {
+          "name": "$FieldFont",
+          "size": 13,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 80,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 4,
+          "strength": 100
+        },
+        "format": "[{{frags|0}}]"
+      },
+      // Text field with the turret marker
+      {
+        "name": "turret marker",
+        "visible": true,
+        "x": -20,
+        "y": 0,
+        "alpha": 80,
+        "color": "0xFCFCFC",
+        "font": {
+          "name": "$FieldFont",
+          "size": 15,
+          "align": "center",
+          "bold": false,
+          "italic": false
+        },
+        "shadow": {
+          "alpha": 80,
+          "color": "0x000000",
+          "angle": 45,
+          "distance": 0,
+          "size": 4,
+          "strength": 100
+        },
+        "format": "{{turret}}"
       }
     ]
   }

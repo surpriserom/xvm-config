@@ -40,14 +40,14 @@
     "sniper": {
       // List of multiplicities for the sniper mode
       // Default: [ 2, 4, 8 ]. It's possible to use a greater number of values.
-      "zooms": [2, 3, 4, 6, 8, 16, 32],
+      "zooms": [2, 3, 4, 6, 8, 10, 16, 32],
       // Zoom Indicator
       // Global macros allowed in all fields
       "zoomIndicator": {
         // Enable/disable
        "enabled": true,
         // Field position relative to screen center
-        "x": 150,
+        "x": -150,
         "y": 30,
         // Field size
         "width": 100,
