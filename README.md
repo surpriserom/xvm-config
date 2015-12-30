@@ -63,6 +63,7 @@ Second turret marker indicate a stock turret where top gun can not be mounted. F
 
 ####Player Panel
 Click on image to open them in bigger
+
 small	|	medium 1	|	medium 2	|	large
 --------|---------------|---------------|---------
 ![Small player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelSmall.jpg)	|	![Medium-1 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-1.jpg)	|	![Medium-2 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-2.jpg)	|	![Large player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelLarge.jpg)
@@ -93,10 +94,10 @@ Feature tank marker and tank name, so instead of point show you the type of tank
 Added circle, with large white circle for max drawing range, blue circle for view range (can be bigger than drawing range with binocular), small white circle for minimal distance for automactic spot, line with dot sho gun orientation, white ine show gun horizontal depression, green line show center of front hull.
 
 ####Hitlog
-hitlog | Structure point left (when you push alt)
--------|------------------------------------------
+hitlog 		|		Structure point left (when you push alt)
+------------|------------------------------------------
 ![Hitlog](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Hitlog.jpg)	|	![Damage log](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/Damagelog.jpg)
-Display your number of hit, your total amount of damage, the damage of your last shot,  |   number of hitpoint left on total hitpoint, tank name, player name.
+Display your number of hit, total amount of damage, damage of your last shot,  |   number of hitpoint left on total hitpoint, tank name, player name.
 per line, the number of shot on this tank, last damage(yellow), total damage, tank name, player name. A red cross when you killed it. | 
 
 ####Camera
