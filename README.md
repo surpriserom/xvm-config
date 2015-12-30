@@ -27,7 +27,9 @@ put the file in world of tank installation folder under /res_mod/configs/xvm
 * More stat in vehicle stat view
 and some more :D
 
+##What it look like
 ### In Garage
+####Garage view
 Wehicle list shortable by tank type, tier, nation, or kind (premium, multi xp, full crew, master...), shown on 2 line, usefull when you start to have a lot of tank
 
 Add more stat when you put your cursor hover a tank, with gun stat, armour stat, speed , horse power, turning speed, cammo ratio, crew composition
@@ -47,7 +49,6 @@ Your stat, with wn8 and battle efficiency, your average tier, your victory ratio
 Xte is a way to compare your efficiency in a vehicle compared to other player
 ![In Garage](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/userInfo-tankStat.jpg)
 
-##What it look like
 ###In Game view
 ![In game view](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/in_game.jpg)
 
@@ -60,4 +61,5 @@ up to down, player name and clan, tank name, structure point and hitpoint bar,tu
 ####Player Panel
 small	|	medium 1	|	medium 2	|	large
 --------|---------------|---------------|---------
-![Small player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelSmall.jpg	|	![Medium-1 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-1.jpg)	|	![Medium-2 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-2.jpg)	|	![Large player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelLarge.jpg)
+![Small player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelSmall.jpg)	|	![Medium-1 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-1.jpg)	|	![Medium-2 player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/mediumpanel-2.jpg)	|	![Large player panel](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/panelLarge.jpg)
+
