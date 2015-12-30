@@ -72,6 +72,7 @@ These indicator display if an ennemy tank has been spotted. From left to right: 
 
 ####Stat Table - loadin screen
 No number in loading screen, just color range hint, more stat in the TAB stat view
+
 stat Table	|	loading panel
 ------------|----------------
 ![Stat table](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/tab-stat.jpg)	|	![Stat table](https://github.com/surpriserom/xvm-config/blob/develop/surpriserom/Data/loading.jpg)
