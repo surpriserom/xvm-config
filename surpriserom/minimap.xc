@@ -32,6 +32,12 @@
     },
     // Map size label
     "mapSize": ${"minimapMapSize.xc":"mapSize"},
+    // Use standard circles
+    "useStandardCircles": true,
+    // Use standard labels
+    "useStandardLabels": false,
+    // Use standard lines
+    "useStandardLines": false,
     // Minimap labels.
     "labels": ${"minimapLabels.xc":"labels"},
     "labelsData": ${"minimapLabelsData.xc":"labelsData"},

@@ -13,7 +13,9 @@
     // Alternative "ears" (players panels) mode. KEY_END
     "playersPanelAltMode": { "enabled": true, "keyCode": 207 },
     // Alternative vehicle markers mode.
-    "markersAltMode":      { "enabled": true, "onHold": true }    
+    "markersAltMode":      { "enabled": true, "onHold": true },
+    // false - disable use hotkeys in custom labels on battle interface window
+    "battleLabelsHotKeys": true 
   }
 }
 

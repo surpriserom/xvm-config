@@ -40,13 +40,13 @@
     "url": "https://github.com/surpriserom/xvm-config/",
 
     // Config last modified.
-    "date": "27/12/2015",
+    "date": "8/6/2016",
 
     // Supported version of the game.
-    "gameVersion": "0.9.13",
+    "gameVersion": "0.9.15",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion":  "6.2.0"
+    "modMinVersion":  "6.3.1.1"
   },
 
   // Parameters for login screen.
@@ -60,6 +60,10 @@
 
   // General parameters for the battle interface.
   "battle": ${"battle.xc":"battle"},
+  
+  // Battle interface text fields
+  "battleLabels": ${"battleLabels.xc":"labels"},
+
 
   // Frag counter panel.
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},
@@ -75,6 +79,9 @@
 
   // Parameters of the Battle Loading screen.
   "battleLoading": ${"battleLoading.xc":"battleLoading"},
+
+  // Parameters for the alternative view of the Battle Loading screen.
+  "battleLoadingTips": ${"battleLoadingTips.xc":"battleLoadingTips"},
 
   // Parameters of the Battle Statistics form.
   "statisticForm": ${"statisticForm.xc":"statisticForm"},
@@ -122,5 +129,8 @@
   "tooltips": ${"tooltips.xc":"tooltips"},
 
   // Extra sounds settings
-  "sounds": ${"sounds.xc":"sounds"}
+  "sounds": ${"sounds.xc":"sounds"},
+
+  // XMQP services settings
+  "xmqp": ${"xmqp.xc":"xmqp"}
 }
