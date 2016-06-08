@@ -18,6 +18,12 @@
     // shadow (see below).
     "shadow": {}
   },
+  // XMQP service marker definition.
+  "xmqpServiceMarker": {
+    "x": 6, "y": 1, "align": "center", "bindToIcon": true,
+    "format": "<font face='xvm' size='23' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}|&#x76;}}</font>",
+    "shadow": {}
+  },
   "playersPanel": {
     // Opacity percentage of the panels. 0 - transparent, 100 - opaque.
     "alpha": 70,
@@ -82,7 +88,10 @@
       "fragsFormatRight": "{{frags}} <font color='{{c:t-winrate}}' size='8'>\u2588</font><font color='{{c:t-battles}}' size='8'>\u2588</font><font color='{{c:eff}}' size='8'>\u2588</font><font color='{{c:wn8}}' size='8'>\u2588</font>",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        ${"xmqpServiceMarker"}
+        ],
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
                                ${"enemySpottedMarker"}
@@ -107,7 +116,9 @@
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        ${"xmqpServiceMarker"}],
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
                            ${"enemySpottedMarker"}
@@ -133,6 +144,8 @@
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        ${"xmqpServiceMarker"}
                          ],
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
@@ -161,6 +174,8 @@
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        ${"xmqpServiceMarker"}
                          ],
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [

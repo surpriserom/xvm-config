@@ -17,6 +17,7 @@
     "rotation": 0,                  // rotation in degrees (0..360)
     "borderColor": null,            // if set, draw border with specified color ("0xXXXXXX")
     "bgColor": null,                // if set, draw background with specified color ("0xXXXXXX")
+    "bgImage": null,                  // If set, draw image at background.  // example: "bgImage": "cfg://My/img/my.png",
     "antiAliasType": "advanced",    // anti aliasing mode ("advanced" or "normal")
     // Macros available (case sensitive):
     // {{Y}}   - full year (4 digits)

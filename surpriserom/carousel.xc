@@ -14,25 +14,31 @@
                "horizontal": 10,
                 "vertical": 2 
                 },
+    // Background transparency (default - 60)
+    "backgroundAlpha": 60,
+    // Scrolling speed (default - 20)
+    "scrollingSpeed": 20,
     // true - show filters even if all tanks fit on the screen.
     "alwaysShowFilters": true,
-    // true - hide cell "Buy tank".
+    // true - hide cell "Buy vehicle".
     "hideBuyTank": false,
     // true - hide cell "Buy slot".
     "hideBuySlot": false,
+    // true - show total slots count in the "Buy vehicle" cell.
+    "showTotalSlots": true,
+    // true - show used slots count in the "Buy slot" cell.
+    "showUsedSlots": true,
     // Visibility filters.
     "filters": {
-      "nation":   { "enabled": true },  // nation         
-      "type":     { "enabled": true },  // vehicle class 
-      "favorite": { "enabled": true },  // favorite tanks
-      "gameMode": { "enabled": true },  // fallout mode tanks 
-      "level":    { "enabled": true },  // vehicle level
-      "prefs":    { "enabled": true }   // other filters
-      },
+      // false - hide filter.
+      "params":   { "enabled": true },  // main params
+      "bonus":    { "enabled": true },  // x2 bonus
+      "favorite": { "enabled": true }   // favorite tanks
+    },
     // Spacing between filters cells.
     "filtersPadding": {
-        "horizontal": 11,   //
-        "vertical": 13      //
+      "horizontal": 11,
+      "vertical": 13
     },
     // Standard cell elements.
     "fields": {
@@ -54,12 +60,12 @@
       "tankName": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Status text (Crew incomplete, Repairs required)
       "statusText": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
-      // Status text for "Buy tank" and "Buy slot" slots.
+      // Status text for "Buy vehicle" and "Buy slot" slots.
       "statusTextBuy": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Clan lock timer
       "clanLock":   { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Activate / deactivate button.
-      "activateButton": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
+      "activateButton": { "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
     // Extra cell fields (see playersPanel.xc).
     "extraFields": [
@@ -67,12 +73,12 @@
       { "x": -1, "y": 10, "format": "<img src='img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png' width='23' height='23'>" }
     ],
     // Order of nations.
-    //"nations_order": ["ussr", "germany", "usa", "france", "uk", "china", "japan"],
-    "nations_order": [],
+    "nations_order": ["uk", "china", "japan", "ussr", "germany", "usa", "france", "czech"],
+    //"nations_order": [],
     // Order of types of vehicles.
     "types_order":   ["lightTank", "mediumTank", "heavyTank", "AT-SPG", "SPG"],
     // Tank sorting criteria, available options: (minus = reverse order)
-    // "nation", "type", "level", "maxBattleTier", "premium", "-level", "-maxBattleTier", "-premium"
+    // "nation", "type", "level", "maxBattleTier", "premium", "winRate", "-level", "-maxBattleTier", "-premium", "-winRate"
     "sorting_criteria": ["nation", "type", "level"],
     // Suppress the tooltips for tanks in carousel
     "suppressCarouselTooltips": false

@@ -10,7 +10,7 @@
     // Arcade mode
     "arcade": {
       // Camera distance range: [min, max], default - [2, 25]
-      "distRange": [1, 50],
+      "distRange": [1, 35],
       // Start distance (null for default behavior - saved state from the last battle)
       "startDist": null,
       // Scroll sensitivity (default = 5)
@@ -32,7 +32,7 @@
     // Strategic mode (arty)
     "strategic": {
       // Camera distance range: [min, max], default - [40, 100]
-      "distRange": [5, 200],
+      "distRange": [1, 200],
       // Enable/disable dynamic camera
       "dynamicCameraEnabled": true
     },

@@ -1,10 +1,11 @@
 ﻿/**
  * Capture bar.
+ * Disabled, option exist in game 
  */
 {
   "captureBar": {
     // false - Disable.
-    "enabled": true,
+    "enabled": false,
     // Ally and enemy bars colors (default: use system color)
     "allyColor": null,
     "enemyColor": null,

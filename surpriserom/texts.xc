@@ -70,7 +70,21 @@
       // fort battle
       "fort_battle": "fort_battle",
       // ranked cybersport battle
-      "rated_cybersport": "rated_cybersport"
+      "rated_cybersport": "rated_cybersport",
+      // global map
+      "global_map": "global_map",
+      // tournament regular
+      "tournament_regular": "tournament_regular",
+      // tournament clan
+      "tournament_clan": "tournament_clan",
+      // rated sandbox
+      "rated_sandbox": "",
+      // sandbox
+      "sandbox": "",
+      // fallout classic
+      "fallout_classic": "",
+      // fallout multiteam
+      "fallout_multiteam": ""
     },
     // Text for {{topclan}} macro.
     "topclan": {

@@ -5,15 +5,24 @@
   "tooltips": {
     // true - Combine icons of equipment and optional devices into one row.
     "combineIcons": true,
+    // true - Hide simplified vehicle parameters
+    "hideSimplifiedVehParams": true,
     // true - Hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew.
     "hideBottomText": true,
     // delay in tooltips appearance: increase in case of freezes, default is 0.4 sec
     "tooltipsDelay": 0.4,
+    // size of the font in vehicle tooltips
+    "fontSize": 12,
+    // name of the font in vehicle tooltips
+    "fontName": "$TextFont",
+    // color for premium shells etc. in vehicle tooltips
+    "goldColor": "#FFC363",
 
-    "lightTank":    [
+   "lightTank":    [
                     "maxHealth",
                     "circularVisionRadius",
-                    "camo_coeff",
+                    "invisibilityStillFactor",
+                    "invisibilityMovingFactor",
                     "TEXT:<font color='#DACFAD'><b>{{l10n:armor}}</b></font>",
                     "turretArmor",
                     "hullArmor",
@@ -33,13 +42,13 @@
                     "enginePowerPerTon",
                     "speedLimits",
                     "terrainResistance",
-                    "crewRolesIcons",
-                    "camo_coeff"
+                    "crewRolesIcons"
                     ],
     "mediumTank":   [
                     "maxHealth",
                     "circularVisionRadius",
-                    "camo_coeff",
+                    "invisibilityStillFactor",
+                    "invisibilityMovingFactor",
                     "TEXT:<font color='#DACFAD'><b>{{l10n:armor}}</b></font>",
                     "turretArmor",
                     "hullArmor",
@@ -59,12 +68,13 @@
                     "enginePowerPerTon",
                     "speedLimits",
                     "terrainResistance",
-                    "crewRolesIcons",
-                    "camo_coeff"
+                    "crewRolesIcons"
                     ],
     "heavyTank":    [
                     "maxHealth",
                     "circularVisionRadius",
+                    "invisibilityStillFactor",
+                    "invisibilityMovingFactor",
                     "TEXT:<font color='#DACFAD'><b>{{l10n:armor}}</b></font>",
                     "turretArmor",
                     "hullArmor",
@@ -83,13 +93,13 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons",
-                    "camo_coeff"
+                    "crewRolesIcons"
                     ],
     "TD":           [
                     "maxHealth",
                     "circularVisionRadius",
-                    "camo_coeff",
+                    "invisibilityStillFactor",
+                    "invisibilityMovingFactor",
                     "TEXT:<font color='#DACFAD'><b>{{l10n:armor}}</b></font>",
                     "turretArmor",
                     "hullArmor",
@@ -108,13 +118,13 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons",
-                    "camo_coeff"
+                    "crewRolesIcons"
                     ],
     "SPG":          [
                     "maxHealth",
                     "circularVisionRadius",
-                    "camo_coeff",
+                    "invisibilityStillFactor",
+                    "invisibilityMovingFactor",
                     "TEXT:<font color='#DACFAD'><b>{{l10n:firepower}}</b></font>",
                     "shootingRadius",
                     "damageAvgSummary",
@@ -131,8 +141,7 @@
                     "chassisRotationSpeed",
                     "enginePowerPerTon",
                     "speedLimits",
-                    "crewRolesIcons",
-                    "camo_coeff"                    
+                    "crewRolesIcons"
                     ]
   }
 }
@@ -172,14 +181,8 @@ List of possible values: (if the parameter is not relevant for some tank, it wil
 "rateOfFire",                           - Rate of Fire (for clip guns will be shown their specific)
 "battleTiers",                          - Battle tiers of vehicle
 "maxHealth",                            - HP of vehicle
+"invisibilityStillFactor"               - Concealment of Stationary Vehicle (%)
+"invisibilityMovingFactor"              - Concealment of Moving Vehicle (%)
 "TEXT:customtext",                      - Show custom text (with HTML support and macro {{l10n:text}})
-"camo_coeff",                           - Camo coefficients (standing still/moving/shooting)
-...
-
-
-
-Camo data taken from following source, special thanks to authors!
-http://forum.worldoftanks.ru/index.php?/topic/1047590-
-
-
+"TEXT:customtext",                      - Show custom text (with HTML support and macro {{l10n:text}})
 */
